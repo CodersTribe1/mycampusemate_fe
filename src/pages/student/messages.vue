@@ -120,12 +120,12 @@ const loading = ref(false);
 const loadingRefresh = ref(false);
 const showEmoji = ref(false) // 
 
-// added for emoji
+// add emoji
 function onSelectEmoji(emoji) { 
   message.value += emoji.i;
 }
 
-// added for toggle
+// toggle emoji
 function toggleEmoji() {
   showEmoji.value = !showEmoji.value;
 }

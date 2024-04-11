@@ -56,9 +56,13 @@
               </div>
             </div>
 
+            <div class="form-floating mb-3">
+              <label for="floatingTextarea">Bio</label>
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            </div>
             <div class="d-grid gap-2">
               <button type="submit" class="btn btn-primary" :disabled="loading">
-                Change Password
+                Save Profile
               </button>
               <RouterLink
                 to="/student/newsfeed"
